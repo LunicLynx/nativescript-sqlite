@@ -354,7 +354,7 @@ Database.prototype.valueType = function(value) {
         this._valuesType = Database.VALUESARESTRINGS;
         setResultValueTypeEngine(this._resultType, this._valuesType);
     }
-    return this._resultType;
+    return this._valuesType;
 };
 
 /**
